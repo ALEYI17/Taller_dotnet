@@ -1,0 +1,40 @@
+syntax = "proto3";
+
+option csharp_namespace = "DatosClient";
+
+
+package Datos;
+
+service DataBuff {
+  //Create
+
+  //Read single
+  rpc ReadUsuario(ReadUsuarioRequest) returns (Usuario) {
+    
+  }
+
+  //Read List
+  rpc ListUsusario(GetAllUsersRequest) returns (GetAllUsersResponse) {
+    
+  }
+
+  //Update
+
+  //Delete
+}
+
+message ReadUsuarioRequest {
+  int32 id = 1;
+}
+
+message GetAllUsersRequest {}
+
+message GetAllUsersResponse {
+  repeated Usuario usuarios = 1;
+}
+
+message Usuario {
+  int32 id = 1;
+  string nombre = 2;
+  string email = 3;
+}
