@@ -1,14 +1,13 @@
-version: '3.1'
 services:
   db:
     image: mysql
     restart: always
     environment:
-      ENV MYSQL_ROOT_PASSWORD: 1234
-      ENV MYSQL_DATABASE: DB_prueba
-      ENV MYSQL_USER: user
-      ENV MYSQL_PASSWORD: 123
+      MYSQL_ROOT_PASSWORD: 1234
+      MYSQL_DATABASE: DB_prueba
+      MYSQL_USER: user
+      MYSQL_PASSWORD: 123
     volumes:
-      - ./init.sql:/docker-entrypoint-initdb.d/
+      - ./init.sql:/docker-entrypoint-initdb.d/init.sql
     ports:
       - 3306:3306
