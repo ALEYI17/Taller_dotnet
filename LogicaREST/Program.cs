@@ -1,7 +1,8 @@
 var builder = WebApplication.CreateBuilder(args);
 var app = builder.Build();
 
-app.MapGet("/", () => {
+app.MapGet("/users", () =>
+{
     // La dirección del servidor gRPC
     using var channel = GrpcChannel.ForAddress("http://localhost:5243");
 
