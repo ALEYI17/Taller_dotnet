@@ -12,3 +12,6 @@ COPY ./init.sql /docker-entrypoint-initdb.d/
 
 # Exponer el puerto por defecto de MySQL
 EXPOSE 3306
+
+# docker image build -t pruebasmysql .
+# docker run -d --name mysql_container -p 3306:3306 pruebasmysql
