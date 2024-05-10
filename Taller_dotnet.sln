@@ -3,9 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.0.31903.59
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Datos", "Datos\Datos.csproj", "{56618DF4-1E85-405F-BF17-D177A03D30BA}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Datos", "gRPC\Datos\Datos.csproj", "{56618DF4-1E85-405F-BF17-D177A03D30BA}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Logica", "Logica\Logica.csproj", "{0B9ABC76-9DB6-44A7-BA7F-52B57FEBD4CD}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Logica", "gRPC\Logica\Logica.csproj", "{0B9ABC76-9DB6-44A7-BA7F-52B57FEBD4CD}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "REST", "REST", "{11E01A89-1D8D-400C-9950-034DAD9E2378}"
 EndProject
