@@ -156,4 +156,4 @@ INSERT INTO usuarios (nombre, email) VALUES
 ('Usuario 147', 'usuario147@example.com'),
 ('Usuario 148', 'usuario148@example.com'),
 ('Usuario 149', 'usuario149@example.com'),
-('Usuario 150', 'usuario150@example.com'),
+('Usuario 150', 'usuario150@example.com');
