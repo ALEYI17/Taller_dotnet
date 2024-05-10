@@ -1,0 +1,6 @@
+@Taller_DotNet_Rest_HostAddress = http://localhost:5160
+
+GET {{Taller_DotNet_Rest_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
